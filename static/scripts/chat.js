@@ -92,7 +92,7 @@ function getHardResponse(userText) {
   document.getElementById("chat-bar-bottom").scrollIntoView(true);
 }
 
-//Gets the text text from the input box and processes it
+//Obtener el texto del recuadro para ingresar datoa y procesarlo
 function getResponse() {
   let userText = $("#textInput").val();
 
